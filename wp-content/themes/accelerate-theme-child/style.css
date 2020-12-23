@@ -2,7 +2,7 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://example.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
+Author:   	Ryoko yamamoto
 Author URI:   http://example.com
 Template: 	accelerate-theme
 Version:      2.0.0
@@ -24,10 +24,10 @@ ver rgba (0, 0, 0, 0);
 
 /* blog post on homepage */
 .blog-post h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    color: #a6a6a6;
-    text-transform: uppercase;
-    margin: 2em 0 .5em;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
 }
 .blog-post h3 {
 	font-size: 1.5em;
@@ -37,6 +37,80 @@ ver rgba (0, 0, 0, 0);
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Case Studies */
+.case-study-sidebar {
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+  margin-left: ;
+}
+
+.case-study-sidebar h3 {
+  font-size: 1.5em;
+}
+
+.case-study-sidebar h6 {
+  font-size: 0.75em;
+  color: #dedbdc;
+  margin: 1em auto;
+}
+
+.case-study-images {
+  float: left;
+  width: 600px;
+  margin: 30px auto;
+}
+
+/* Featured work to home page */
+.site-content h4 {
+  text-align: center;
+}
+
+.homepage-featured-work {
+  display: flex;
+  align-content: space-between;
+}
+
+.individual-featured-work {
+  list-style: none;
+  margin: 10px;
+}
+
+.individual-featured-work h4 a {
+  color: #3b3b3b;
+}
+
+/* Archive post page*/
+.case-study-sidebar .view-project {
+  color: #45ac9d;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+/* Social icons */
+div .menu-social-media-nav-container {
+  width: ;
+}
+
+ul #menu-item-47374, #menu-item-47371, #menu-item-47372 {
+  background-color: #4c4c4c;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  display:inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.menu-item i._mi {
+  color: white;
 }
 
 /* media queries */
