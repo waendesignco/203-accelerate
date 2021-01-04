@@ -40,11 +40,15 @@ ver rgba (0, 0, 0, 0);
 }
 
 /* Case Studies */
+div#primary.site-content-sidebar {
+  margin-left: 300px;
+}
+
 .case-study-sidebar {
   float: left;
   width: 300px;
   margin-right: 50px;
-  margin-left: ;
+  margin-left: 0 auto;
 }
 
 .case-study-sidebar h3 {
