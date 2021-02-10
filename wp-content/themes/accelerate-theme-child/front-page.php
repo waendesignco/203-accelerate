@@ -46,8 +46,9 @@ get_header(); ?>
 			 <?php wp_reset_query(); //resets the altered query back to the original ?>
        </ul>
 	  </div>
-<section class="recent-posts">
+<section>
 
+<section class="recent-posts">
   <div class="site-content">
 		<div class="blog-post">
       <h4>From the Blog</h4>

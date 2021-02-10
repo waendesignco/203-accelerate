@@ -12,6 +12,9 @@ Text Domain:  accelerate-theme-child
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 ver rgba (0, 0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #masthead {
@@ -115,6 +118,141 @@ ul #menu-item-47374, #menu-item-47371, #menu-item-47372 {
 
 .menu-item i._mi {
   color: white;
+}
+
+/* Contact Me */
+input#nf-field-1.ninja-forms-field.nf-element,input#nf-field-2.ninja-forms-field.nf-element {
+  width: 450px;
+}
+
+div#nf-field-1-container.nf-field-container.textbox-container.label-above,div#nf-field-2-container.nf-field-container.textbox-container.label-above {
+  display: flex;
+  align-items: flex-start;
+  width: 450px;
+}
+
+input#nf-field-4.ninja-forms-field.nf-element {
+  background: #45ac9d;
+  float: right;
+  width: 200px;
+}
+/* About single page */
+ .about h6 {
+   width: 80%;
+ }
+
+ .service-images {
+   float: left;
+   width: 30%;
+   height: 30%;
+   margin: 2em;
+ }
+
+/* About archive*/
+#about-content {
+  width: 60%;
+}
+
+#about-content h2{
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.our-services {
+  display: inline-block;
+
+  margin-left: 9em;
+  margin-right: 9em;
+}
+
+.services-content {
+  text-align: center;
+}
+
+.services-content h6 {
+margin: 0;
+font-weight: 500;
+}
+
+#individual-service {
+  padding: 2em 0;
+  display: flex;
+}
+
+#individual-service:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.about-sidebar {
+  float: left;
+  width: 60%;
+  margin: 2em 0;
+}
+
+.about-sidebar h1 {
+  margin: auto;
+}
+
+.about-image {
+  float: left;
+  margin: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  border-bottom: 1px solid #bfbfbf;
+  display: flex;
+  justify-content: center;
+  width: 1117px;
+}
+
+.interested {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#interested {
+  vertical-align: top;
+  margin: 1em 2em;
+}
+
+#interested-button {
+  margin: 3em 2em;
+  vertical-align: bottom;
+}
+
+.intersted .button {
+  padding: 1.5em 3.75em;
+}
+
+#main{
+	margin-bottom: 0;
+}
+
+/* 404 */
+.no-page {
+    background: url("img/page-not-found.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+ver rgba (0, 0, 0, 0);
+    height: 500px;
+}
+.no-page-content {
+    display: flex;
+    align-items: center;
+    flex-flow:column nowrap;
+}
+
+.no-page-content h1 {
+    font-family:  'Londrina Solid', cursive;
+}
+
+.no-page-content h2 {
+    color: #ffffff;
+    margin: 7em 0 2em;
+    text-align: center;
 }
 
 /* media queries */

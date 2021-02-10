@@ -17,11 +17,11 @@ get_header(); ?>
 <div id="primary" class="site-content sidebar">
 	 <div class="main-content" role="main">
    <?php while ( have_posts() ) : the_post();
-         $image_1 = get_field("image_1");
          $size = "full";
          $services = get_field('services');
          $client = get_field('client');
          $link = get_field('site_link');
+				 $image_1 = get_field("image_1");
    ?>
 
     <article class="case-study">
